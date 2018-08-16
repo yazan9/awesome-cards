@@ -1,0 +1,11 @@
+.card {
+    margin-top: 1.5rem;
+    min-height:25rem;
+}
+a{
+    color: black;
+    text-decoration:none;
+}
+.close_box{
+    margin-top:0rem;
+}

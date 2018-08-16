@@ -1,0 +1,18 @@
+<div class="container col-6">
+<h1>Add a new Flash Card to your collection</h1>
+    <form (ngSubmit)="onSubmit()" #cardForm="ngForm">
+      <div class="form-group">
+        <label for="question">Question</label>
+        <input type="text" class="form-control" id="question" name="question" [(ngModel)]="card.question" required/>
+      </div>
+      
+      <div class="form-group">
+        <label for="answer">Answer</label>
+        <input type="text" class="form-control" id="answer" name="answer" [(ngModel)]="card.answer" required/>
+      </div>
+ 
+      <input type="submit" class="btn btn-success btn-large">
+      <button class="btn btn-large btn-dark" (click)="goBack()" type="button">Back</button>
+    </form>
+
+</div>

@@ -1,0 +1,13 @@
+<div class="container-fluid text-center pb-5">
+  <div class="row justify-content-center align-items-center">
+    <app-card *ngFor= "let card of cards" class="col-3" [card]="card" (deleted)="onDeleted($event)"></app-card>
+    
+    <div class="card text-white bg-secondary col-3" style="cursor:pointer">
+      <a routerLink = "/add/{{category_id}}" style="height:100%">
+        <div class="card-body" style="height:100%">
+          <h1>Add New</h1>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

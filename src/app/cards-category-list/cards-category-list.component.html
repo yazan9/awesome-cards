@@ -1,0 +1,9 @@
+<div class="container-fluid text-center pb-5">
+  <div class="row">
+      <h2>Categories</h2>
+    </div>
+    <div class="row">
+    <app-cards-category *ngFor = "let category of categories" [category] = "category" class="col-3"></app-cards-category>
+    </div>
+    
+</div>

@@ -1,0 +1,13 @@
+<div class="float-right badge badge-danger close_box" style="cursor:pointer" (click)="deleteCard(card)"><strong>X</strong></div>
+<div class="card flex-fill border-info" [class.bg-info]="isAnswer" [class.text-white]="isAnswer" (click)="toggleAnswer()" style="cursor:pointer">
+  <div class="card-body">
+    <div *ngIf = "!isAnswer">
+    <div class="card-header"><h5>Question</h5></div>
+    <h1 class="card-title">{{card.question}}</h1>
+    </div>
+    <div *ngIf = "isAnswer">
+    <div class="card-header"><h5>Answer</h5></div>
+    <h1 class="card-title">{{card.answer}}</h1>
+    </div>
+  </div>
+</div>

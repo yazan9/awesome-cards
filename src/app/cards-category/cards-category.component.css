@@ -1,0 +1,9 @@
+.card {
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration:none;
+}

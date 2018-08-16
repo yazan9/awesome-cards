@@ -1,0 +1,3 @@
+<h1 class="display-3">{{category.name}}</h1>
+<app-card-list [category_id] = "category.id" [cards] = "cards" (deleted) = "onDeleted($event)"></app-card-list>
+
