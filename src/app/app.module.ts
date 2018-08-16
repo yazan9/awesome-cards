@@ -7,7 +7,7 @@ import { CardComponent } from './card/card.component';
 import { CardListComponent } from './card-list/card-list.component';
 import { CardsCategoryComponent } from './cards-category/cards-category.component';
 import { CardsCategoryListComponent } from './cards-category-list/cards-category-list.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { CardsCategoryDetailsComponent } from './cards-category-details/cards-category-details.component';
 import { CardFormComponent } from './card-form/card-form.component';
 
